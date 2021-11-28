@@ -1,0 +1,40 @@
+/* Write your code here */
+.background-card {
+  background-image: url('https://assets.ccbp.in/frontend/react-js/reviews-bg.png');
+  display: flex;
+  flex-direction: column;
+  background-size: cover;
+  min-height: 100vh;
+  justify-content: flex-start;
+  align-items: center;
+  padding-top: 45px;
+}
+.content-card {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  width: 70%;
+  flex-shrink: 0;
+}
+img {
+  background-color: transparent;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  margin: 15px;
+}
+.review-card {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+p {
+  text-align: center;
+}
+.button-style {
+  background-color: transparent;
+  padding: 0px;
+  border: none;
+}
